@@ -7,6 +7,9 @@ body {
   align-items: center;
   color: green;
 }
+#label:hover {
+  background-color: rgb(167, 249, 167);
+}
 #header {
   font-size: 50px;
   margin: 40px auto;
@@ -68,6 +71,8 @@ img {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     padding: 15px 0 15px 30px;
+    font: bold;
+    font-size: 45px;
   }
   #footer {
     font-size: 13px;
